@@ -1,5 +1,7 @@
 import React from "react";
 
+import type { Recipe } from '../App'
+
 interface Props {
     setSearchInput: React.Dispatch<React.SetStateAction<string>>;
     searchInput: string;
